@@ -94,6 +94,15 @@ For `## 1. Import Libraries`, include these groups:
 6. Evaluation: accuracy, precision, recall, F1-score, confusion matrix, ROC-AUC
 7. Saving model: `joblib`
 
+For `## 2. Load Dataset`, complete these substeps:
+
+1. Define the dataset file path as `data/WA_Fn-UseC_-HR-Employee-Attrition.csv`
+2. Load the CSV using `pd.read_csv(...)`
+3. Print the dataset shape
+4. Print the column names
+5. Display the first 5 rows using `df.head()`
+6. Confirm that the target column `Attrition` is present
+
 ### Step 4: Explore the dataset
 
 Your EDA should cover:
