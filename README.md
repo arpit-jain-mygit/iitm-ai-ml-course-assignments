@@ -56,7 +56,22 @@ jupyter notebook
 
 ### Step 3: Create the notebook
 
-In `notebook.ipynb`, divide the work into clear sections:
+Create `notebook.ipynb` and divide it into clear sections.
+
+Subtasks for Step 3:
+
+1. Add a title cell with the project name and dataset path.
+2. Add a section for importing all required libraries.
+3. Add a section for loading the dataset from `data/WA_Fn-UseC_-HR-Employee-Attrition.csv`.
+4. Add a section for exploratory data analysis.
+5. Add a section for data preprocessing.
+6. Add a section for model building.
+7. Add a section for model evaluation.
+8. Add a section for feature importance and interpretation.
+9. Add a section for saving the final model.
+10. Add a final conclusions section.
+
+Suggested notebook section order:
 
 1. Import libraries
 2. Load dataset
@@ -66,6 +81,7 @@ In `notebook.ipynb`, divide the work into clear sections:
 6. Model evaluation
 7. Feature importance / interpretation
 8. Final model saving
+9. Conclusions
 
 ### Step 4: Explore the dataset
 
