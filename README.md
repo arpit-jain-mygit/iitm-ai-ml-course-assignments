@@ -62,6 +62,7 @@ Subtasks for Step 3:
 
 1. Add a title cell with the project name and dataset path.
 2. Add a section for importing all required libraries.
+   Include data handling, visualization, preprocessing, modeling, evaluation, and model-saving imports.
 3. Add a section for loading the dataset from `data/WA_Fn-UseC_-HR-Employee-Attrition.csv`.
 4. Add a section for exploratory data analysis.
 5. Add a section for data preprocessing.
@@ -82,6 +83,16 @@ Suggested notebook section order:
 7. Feature importance / interpretation
 8. Final model saving
 9. Conclusions
+
+For `## 1. Import Libraries`, include these groups:
+
+1. Basic libraries: `pandas`, `numpy`
+2. Visualization: `matplotlib`, `seaborn`
+3. Preprocessing: `ColumnTransformer`, `OneHotEncoder`, `StandardScaler`, `SimpleImputer`
+4. Modeling: `LogisticRegression`, `DecisionTreeClassifier`, `SVC`
+5. Model selection: `train_test_split`, `GridSearchCV`
+6. Evaluation: accuracy, precision, recall, F1-score, confusion matrix, ROC-AUC
+7. Saving model: `joblib`
 
 ### Step 4: Explore the dataset
 
