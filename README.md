@@ -106,18 +106,31 @@ For `## 2. Load Dataset`, complete these substeps:
 For `## 3. Exploratory Data Analysis`, complete these substeps:
 
 1. Check dataset shape, column names, and data types
+   Significance: this confirms what employee attributes are available and helps you distinguish categorical HR fields from numerical ones before preprocessing.
 2. Display `df.head()` and `df.describe()`
+   Significance: this gives an initial feel for employee age, income, experience, and rating ranges that may influence attrition.
 3. Check missing values for all columns
+   Significance: missing HR values can bias the model or force you to add imputation later.
 4. Check duplicate rows
+   Significance: duplicate employee records can distort attrition rates and evaluation metrics.
 5. Analyze the target column `Attrition`
+   Significance: this tells you how many employees left versus stayed, which is the core business question.
 6. Confirm whether the classes are imbalanced
+   Significance: attrition is usually rare, so this step justifies using recall, F1-score, ROC-AUC, and imbalance handling methods.
 7. Separate numerical and categorical columns
+   Significance: the two types need different preprocessing steps such as scaling for numeric fields and encoding for HR categories.
 8. Plot a countplot for `Attrition`
+   Significance: this makes the imbalance visually obvious for the report.
 9. Plot histograms for key numerical features such as `Age`, `MonthlyIncome`, and `TotalWorkingYears`
+   Significance: these are common retention drivers and the plots help you understand whether attrition is linked to younger staff, lower income, or lower experience.
 10. Plot boxplots to inspect outliers
+   Significance: extreme salaries, tenure values, or travel patterns can affect model stability and may need treatment.
 11. Plot a correlation heatmap for numerical columns
+   Significance: correlated variables can indicate redundancy and help you interpret which employee metrics move together.
 12. Compare attrition against `OverTime`, `JobRole`, `WorkLifeBalance`, and `JobSatisfaction`
+   Significance: these features are directly tied to HR policy decisions and often explain why employees leave.
 13. Write 3-5 short observations summarizing the main EDA findings
+   Significance: these observations become the core narrative for your report and feature-importance discussion.
 
 ### Step 4: Explore the dataset
 
