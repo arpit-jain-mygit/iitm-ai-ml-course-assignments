@@ -103,6 +103,22 @@ For `## 2. Load Dataset`, complete these substeps:
 5. Display the first 5 rows using `df.head()`
 6. Confirm that the target column `Attrition` is present
 
+For `## 3. Exploratory Data Analysis`, complete these substeps:
+
+1. Check dataset shape, column names, and data types
+2. Display `df.head()` and `df.describe()`
+3. Check missing values for all columns
+4. Check duplicate rows
+5. Analyze the target column `Attrition`
+6. Confirm whether the classes are imbalanced
+7. Separate numerical and categorical columns
+8. Plot a countplot for `Attrition`
+9. Plot histograms for key numerical features such as `Age`, `MonthlyIncome`, and `TotalWorkingYears`
+10. Plot boxplots to inspect outliers
+11. Plot a correlation heatmap for numerical columns
+12. Compare attrition against `OverTime`, `JobRole`, `WorkLifeBalance`, and `JobSatisfaction`
+13. Write 3-5 short observations summarizing the main EDA findings
+
 ### Step 4: Explore the dataset
 
 Your EDA should cover:
